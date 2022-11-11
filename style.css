@@ -81,8 +81,15 @@ button {
 .sec button {
   margin: 10px;
 }
+.sec input {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
 .sec input + input {
   margin-left: 15px;
+  
 }
 section {
   padding: 10px;
