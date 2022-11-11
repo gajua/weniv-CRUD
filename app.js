@@ -127,11 +127,8 @@ const updateProduct = ({ id }, container) => {
 
     productName.type = "text";
     productPrice.type = "number";
-    productPrice.placeholder = "가격";
-
     productName.value = h2.innerText;
-    productPrice.value = p.innerText;
-
+    productPrice.value = parseInt(p.textContent.split("가격 :")[1]);
     h2.style.display = "none";
     p.style.display = "none";
 
