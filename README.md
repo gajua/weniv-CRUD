@@ -14,6 +14,17 @@
 json-server --watch db.json --port 3001
 ```
 
+
+---
+## [Git 경고 메세지] LF will be replaced by CRLF in 해결 방안
+
+```
+git config --global core.autocrlf true
+```
+-----
+## db.json
+
+
 ```js
 //  db.json
 {
